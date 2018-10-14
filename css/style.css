@@ -1,0 +1,151 @@
+body{
+	height: : 4000px;
+}
+.main-nav{
+	transition: all 0.5s;
+}
+.main-nav-scrolled{
+	background-color: rgba(0,0,0,0.3);
+}
+
+/*hh*/
+.w-100{widows:100%;}
+#something
+{
+    padding: 100px 0px;
+    background-color: red;
+    background-image: url(./../img/background.jpeg);
+    background-size: 100%;
+    background-position: center; 
+    background-attachment: fixed; 
+}
+
+#something .card
+{
+    background-color:rgba(0,0,0,0.5);
+    color:#FFF;
+}
+/*kk*/
+
+.carousel-caption{
+	bottom: 25%;
+	transform: translate(0.50%);
+	/*text-transform: uppercase;*/
+}
+.carousel-caption h1{
+	font-size: 6.5rem;
+	border: 1px solid #fff;
+
+}
+
+.carousel-caption h1 span{
+	color: #87d37c;
+}
+.card:hover i,.card:hover h4{
+	color: #87d37c;
+}
+#services figure{ 
+	position: relative;
+	overflow: hidden;
+}
+#services figure figcaption{
+	position: absolute;
+	top: 96%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.3);
+	transition:all 0.5s;
+}
+#services figure:hover figcaption{
+	top: 0;
+
+}
+/*price start here*/
+.price-table {
+    margin-top: 100px;
+}
+
+.pricing {
+    background: #000000;
+    padding: 20px;
+    border-radius: 5px;
+    color:#fff;
+	margin-bottom:30px;
+}
+.pricing-top {
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    border: 5px solid #fff;
+    margin: 0 auto;  
+}
+.pricing-top p{
+    margin-top: 20px;
+}
+.pricing-top sup{
+    font-size: 20px;
+    top: -3px;
+    left: -5px;
+}
+.pricing-top em{
+    font-size: 25px;
+}
+.pricing-top span{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.pricing ul{
+    padding: 0; 
+}
+.pricing ul li{
+    max-width: 140px;
+    border-bottom: 1px solid #fff;
+    list-style: none;
+    margin: 0 auto;
+    padding: 10px 0;
+    font-size: 15px;
+}
+
+.price-table .btn {
+    background: #fff;
+    color: #39393a;
+    text-transform: uppercase;
+    border-radius: 0;
+    margin-top: 10px;
+    font-weight: bold;
+    padding: 5px 20px;
+    transform: .5s;
+}
+.pricing:hover {
+    background: #808080;
+    color: #000;
+    transition-duration:.5s;
+}
+.pricing:hover .pricing-top{
+    background: #fff;
+    color: #000;
+    transition-duration: .5s;
+}
+.pricing:hover .btn{
+    background: #000;
+    color: #fff;
+    transition-duration: .5s;
+}
+/*price end here*/
+
+footer{
+    background-color: #000;
+    color: #fff;
+    padding:20px 0px;
+}
+footer ul{
+    list-style: none
+}
+footer ul li{
+    display: inline;
+}
+footer ul li a{
+    padding:10px;
+}
